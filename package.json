@@ -1,0 +1,44 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/DmitriySavchenko/js-jest-testing-project-67/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DmitriySavchenko/js-jest-testing-project-67/actions)",
+  "homepage": "https://github.com/DmitriySavchenko/js-jest-testing-project-67#readme",
+  "bugs": {
+    "url": "https://github.com/DmitriySavchenko/js-jest-testing-project-67/issues"
+  },
+  "bin": {
+    "code": "src/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriySavchenko/js-jest-testing-project-67.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/node": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "@eslint/js": "^9.39.2",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
+    "jest": "^30.2.0",
+    "nock": "^14.0.10"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "commander": "^14.0.2"
+  }
+}
